@@ -43,7 +43,7 @@ const TokenTypeFilter = <T extends TokenType | NFTTokenType>({ nftOnly, onChange
       </Flex>
       <CheckboxGroup size="lg" onChange={ handleChange } value={ value }>
         { (nftOnly ? NFT_TOKEN_TYPES : TOKEN_TYPES).map(({ title, id }) => (
-          <Checkbox key={ id } value={ id }>
+          <Checkbox key={ id } value={ id } colorScheme="green">
             <Text fontSize="md">{ title }</Text>
           </Checkbox>
         )) }
