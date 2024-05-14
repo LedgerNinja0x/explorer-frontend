@@ -30,7 +30,7 @@ const defaultColorTheme = (() => {
 })();
 
 // eslint-disable-next-line max-len
-const HOMEPAGE_PLATE_BACKGROUND_DEFAULT = 'radial-gradient(103.03% 103.03% at 0% 0%, rgba(183, 148, 244, 0.8) 0%, rgba(0, 163, 196, 0.8) 100%), var(--chakra-colors-blue-400)';
+const HOMEPAGE_PLATE_BACKGROUND_DEFAULT = 'linear-gradient(135deg, #004f68, #04c700)';
 
 const UI = Object.freeze({
   sidebar: {
