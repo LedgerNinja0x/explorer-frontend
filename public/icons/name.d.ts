@@ -82,6 +82,8 @@
 	| "monaco/vyper"
 	| "moon-with-star"
 	| "moon"
+	| "Nephele/icon-placeholder"
+	| "Nephele/logo-placeholder"
 	| "networks"
 	| "networks/icon-placeholder"
 	| "networks/logo-placeholder"
